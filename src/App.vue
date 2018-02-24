@@ -35,59 +35,28 @@
             return {
                 dogScore: null,
                 nameScore: null,
-                sectionDropdown__isOpen: false,
-                dropdown__isOpen: false,
-                dropdownItems: [{
-                        label: 'Corgi',
-                        value: 1000
-                    },
-                    {
-                        label: 'Australian Shepard',
-                        value: 950
-                    },
-                    {
-                        label: 'Beagle',
-                        value: 900
-                    },
-                    {
-                        label: 'Labrador',
-                        value: 750
-                    },
-                    {
-                        label: 'Goldendoodle',
-                        value: 600
-                    }
+                dropdownItems: [
+                    { label: 'Corgi', value: 1000 },
+                    { label: 'Australian Shepard', value: 950 },
+                    { label: 'Beagle', value: 900 },
+                    { label: 'Labrador', value: 750 },
+                    { label: 'Goldendoodle', value: 600 }
                 ],
-                sectionedDropdownItems: [{
-                        sectionTitle: 'Girls',
-                        data: [{
-                                value: 100,
-                                name: 'Susie'
-                            },
-                            {
-                                value: 200,
-                                name: 'Debbie'
-                            },
-                            {
-                                value: 50,
-                                name: 'Patricia'
-                            }
+                sectionedDropdownItems: [
+                    {
+                        sectionTitle: 'Girl Names',
+                        data: [
+                            { value: 100, name: 'Susie' },
+                            { value: 200, name: 'Debbie' },
+                            { value: 50, name: 'Patricia' }
                         ]
                     },
                     {
                         sectionTitle: 'Boys',
-                        data: [{
-                                value: 100,
-                                name: 'John'
-                            },
-                            {
-                                value: 200,
-                                name: 'Steve'
-                            },
-                            {
-                                value: 50,
-                                name: 'Harry'
-                            }
+                        data: [
+                            { value: 100, name: 'John' },
+                            { value: 200, name: 'Steve' },
+                            { value: 50, name: 'Harry' }
                         ]
                     }
                 ]
