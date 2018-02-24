@@ -20,7 +20,9 @@ Standard Dropdown:
         { label: 'Labrador', value: 750 },
         { label: 'Goldendoodle', value: 600 }
     ]
+```
 
+```html
 Sectioned Dropdown:
 
 <dropdown
