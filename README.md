@@ -2,7 +2,9 @@
 
 > Custom dropdown component for Vue2.js. Accepts an array of strings, an array of objects with a definable display key, or a sectioned group of arrays also with defined section titles and display keys.
 
-```
+```html
+
+Standard Dropdown:
 
 <dropdown
     :data="dropdownItems"
@@ -17,12 +19,11 @@
         { label: 'Beagle', value: 900 },
         { label: 'Labrador', value: 750 },
         { label: 'Goldendoodle', value: 600 }
-    ]```
+    ]
 
+Sectioned Dropdown:
 
-```
-
-<dropdown 
+<dropdown
     :sections="sectionedDropdownItems"
     :display-key="'name'"
     :current-selection="sectionedDropdownItems[1].data[2].name"
@@ -46,7 +47,9 @@
                 { value: 50, name: 'Harry' }
             ]
         }
-    ]```
+    ]
+
+```
 
 ## Build Setup
 
