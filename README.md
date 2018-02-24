@@ -42,7 +42,7 @@ Sectioned Dropdown:
             ]
         },
         {
-            sectionTitle: 'Boys',
+            sectionTitle: 'Boy Names',
             data: [
                 { value: 100, name: 'John' },
                 { value: 200, name: 'Steve' },
